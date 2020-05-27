@@ -29,6 +29,14 @@ quales dant, puppim hanc!
     scanner(1, ram_wddm(map, reader + 3, ole_install));
 ```
 
+```python
+    print('Hello World')
+```
+
+```go
+    import fs
+```
+
 ## In nunc
 
 Superinposita dira me Iove, lanigeris tendunt! Illis gladii, in pignusque dixit
