@@ -1,27 +1,11 @@
-@font-face {
-  font-family: "Source Code Pro";
-  src: url("../../static/fonts/sourceCodePro/SourceCodePro-Black.woff2")
-      format("woff2"),
-    url("../../static/fonts/sourceCodePro/SourceCodePro-Black.woff")
-      format("woff");
-}
-
-@font-face {
-  font-family: "Martel Sans";
-  src: url("../../static//fonts/martelSans/MartelSans-Black.woff2")
-      format("woff2"),
-    url("../../static/fonts/martelSans/MartelSans-Black.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Roboto";
-  src: url("../../static/fonts/roboto/Roboto-Black.woff2") format("woff2"),
-    url("../../static/fonts/roboto/Roboto-Black.woff") format("woff");
-}
+@import url("../../static/fonts/sourceCodePro/stylesheet.css");
+@import url("../../static/fonts/martel/stylesheet.css");
+@import url("../../static/fonts/martelSans/stylesheet.css");
 
 body {
   margin: 0;
   background: #fbfbfbff;
+  font-family: "Martel Sans"
 }
 
 h1,
@@ -31,7 +15,7 @@ h4,
 h5,
 h6 {
   margin-top: 1rem;
-  font-family: "Martel Sans";
+  font-family: "Martel";
 }
 
 main {
@@ -51,9 +35,4 @@ article {
     box-shadow: 0px 11px 22px 12px #eee;
     border-radius: 5px;
   }
-}
-
-p {
-  font-family: "Roboto";
-  font-weight: 500;
 }

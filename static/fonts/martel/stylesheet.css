@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Martel';
+    src: url('./Martel-Light.woff2') format('woff2'),
+        url('./Martel-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Martel';
+    src: url('./Martel-ExtraBold.woff2') format('woff2'),
+        url('./Martel-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Martel';
+    src: url('./Martel-UltraLight.woff2') format('woff2'),
+        url('./Martel-UltraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Martel';
+    src: url('./Martel-Bold.woff2') format('woff2'),
+        url('./Martel-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Martel';
+    src: url('./Martel-DemiBold.woff2') format('woff2'),
+        url('./Martel-DemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Martel';
+    src: url('./Martel-Heavy.woff2') format('woff2'),
+        url('./Martel-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Martel';
+    src: url('./Martel-Regular.woff2') format('woff2'),
+        url('./Martel-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
