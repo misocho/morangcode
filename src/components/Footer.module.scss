@@ -1,27 +1,45 @@
 footer {
-    background-color: rgba(0, 0, 0, 0.9);
-    padding: 20px 0 40px 0;
-    color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(7, 30, 61, 1);
+  padding: 1.5rem 0 1.5rem 0;
+  color: rgba(153, 153, 153, 1);
+  font-size: 0.83333rem;
 
-    .container {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 50rem;
-        padding: 20px;
+  .container {
+    padding-right: 1.05rem;
+    padding-left: 1.05rem;
+    display: grid;
+    grid-template-rows: 40% 40% auto;
+  }
+
+  a {
+    color: rgba(153, 153, 153, 1);
+  }
+
+  .iconsContainer {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin: 1.05rem auto;
+    gap: 1rem;
+    width: fit-content;
+  }
+
+  .linksContainer {
+    margin: 1.05rem auto;
+  }
+
+  .separator {
+    margin: 0 0.5rem;
+  }
+
+  .copyright {
+    margin: 1.05rem auto;
+  }
+  .icons {
+    fill: rgba(153, 153, 153, 1);
+
+    &:hover {
+      fill: rgba(153, 153, 153, 0.75);
+      cursor: pointer;
     }
-
-    a {
-        color: #ddd;
-        margin: 10px;
-
-        &:hover {
-            color: #fff;
-        }
-    }
-
-    .copyright {
-        text-align: right;
-    }
+  }
 }
