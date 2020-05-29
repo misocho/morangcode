@@ -9,6 +9,7 @@ footer {
     padding-left: 1.05rem;
     display: grid;
     grid-template-rows: 40% 40% auto;
+    justify-content: center;
   }
 
   a {
@@ -18,13 +19,13 @@ footer {
   .iconsContainer {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    margin: 1.05rem auto;
-    gap: 1rem;
-    width: fit-content;
+    margin: 1.05rem 0;
+    align-items: center;
+    justify-items: center;
   }
 
   .linksContainer {
-    margin: 1.05rem auto;
+    margin: 1.05rem 0;
   }
 
   .separator {
@@ -32,7 +33,8 @@ footer {
   }
 
   .copyright {
-    margin: 1.05rem auto;
+    margin: 1.05rem 0;
+    text-align: center;
   }
   .icons {
     fill: rgba(153, 153, 153, 1);
