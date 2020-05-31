@@ -18,19 +18,25 @@ const Footer = () => (
         <TwitterIcon className={styles.icons} />
       </div>
       <div className={styles.linksContainer}>
-        <Link>Home</Link>
-        <span className={styles.separator}>|</span>
-        <Link>About</Link>
-        <span className={styles.separator}>|</span>
-        <Link>Contact</Link>
-        <span className={styles.separator}>|</span>
-        <Link>Mailing list</Link>
-        <span className={styles.separator}>|</span>
-        <Link>RSS</Link>
+        <ul>
+          <li className={styles.withBar}>
+            <Link>Home</Link>
+          </li>
+          <li className={styles.withBar}>
+            <Link>About</Link>
+          </li>
+          <li className={styles.withBar}>
+            <Link>Contact</Link>
+          </li>
+          <li className={styles.withBar}>
+            <Link>Mailing list</Link>
+          </li>
+          <li>
+            <Link>RSS</Link>
+          </li>
+        </ul>
       </div>
-      <div className={styles.copyright}>
-        {config.copyright}
-      </div>
+      <div className={styles.copyright}>{config.copyright}</div>
     </div>
   </footer>
 );
