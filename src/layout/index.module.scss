@@ -5,7 +5,7 @@
 body {
   margin: 0;
   background: #fbfbfbff;
-  font-family: "Martel Sans"
+  font-family: "Martel Sans";
 }
 
 h1,
@@ -34,5 +34,13 @@ article {
   &:hover {
     box-shadow: 0px 11px 22px 12px #eee;
     border-radius: 5px;
+  }
+}
+
+.main-container {
+  margin-top: 80px;
+
+  @media (max-width: 1000px) {
+    margin-top: 130px;
   }
 }
