@@ -1,14 +1,15 @@
-import React from 'react'
-import { Link } from 'gatsby'
-import config from '../../data/SiteConfig'
-import Categories from './Categories'
-import styles from './Header.module.scss'
+import React from "react";
+import { Link } from "gatsby";
+import config from "../../data/SiteConfig";
+import Categories from "./Categories";
+import styles from "./Header.module.scss";
+import Logo from "../../static/logos/logo-24.png";
 
 const Header = () => (
   <header>
     <h1>
-      <Link to="/" activeClassName={styles.activeNav}>
-        {config.siteTitle}
+      <Link to="/" activeClassName={styles.logoContainer}>
+        <img src={Logo} alt="morang logo"  /> <span>{config.siteTitle}</span>
       </Link>
     </h1>
     <nav>
@@ -27,6 +28,6 @@ const Header = () => (
       </ul>
     </nav>
   </header>
-)
+);
 
-export default Header
+export default Header;

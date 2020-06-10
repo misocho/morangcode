@@ -12,7 +12,7 @@ const MainLayout = ({ children }) => (
     <Helmet>
       <meta name="description" content={config.siteDescription} />
     </Helmet>
-    {children}
+    <div className={styles.mainContainer}>{children}</div>
     <Footer />
     <BottomNav />
   </>
