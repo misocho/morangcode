@@ -7,8 +7,8 @@ import styles from "./Header.module.scss";
 const Header = () => (
   <header>
     <h1>
-      <Link to="/">
-        <span>{config.siteTitle}</span>
+      <Link to="/" activeClassName={styles.activeNav}>
+        {config.siteTitle}
       </Link>
     </h1>
     <nav>
