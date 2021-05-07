@@ -32,7 +32,7 @@ const Contact = () => (
 
     <div className={styles.userActions}>
       <p className={styles.boldText}>
-        Help me improve this site 😊. Feel free to...
+        Help me improve this site. Feel free to...
       </p>
       <ul>
         <li>
