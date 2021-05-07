@@ -1,0 +1,12 @@
+.container {}
+
+.aboutImage {
+    @media (min-width: 1024px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.sectionContainer {
+    margin: 1rem;
+}

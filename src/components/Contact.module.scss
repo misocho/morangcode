@@ -1,0 +1,52 @@
+.container {
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+
+    hr {
+        margin: 2.5rem auto;
+        border-top-width: 1px;
+        overflow: visible;
+        border-color: #eee;
+        border: 0 solid;
+        box-sizing: content-box;
+        width: 100%;
+    }
+}
+
+.socialIconsContainer {
+    display: block;
+    text-align: center;
+
+    ul {
+        display: inline-flex;
+        justify-content: space-between;
+        align-items: stretch;
+
+        flex-wrap: wrap;
+        list-style: none;
+        margin: 0;
+    }
+
+    li {
+        display: list-item;
+        margin: 1rem;
+    }
+}
+
+.icon {
+    text-align: -webkit-match-parent;
+    width: 40px;
+    height: auto;
+}
+
+.userActions {
+    ul {
+        list-style-type: none;
+    }
+}
+
+.boldText {
+    font-weight: 700;
+}
