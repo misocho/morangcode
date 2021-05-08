@@ -30,8 +30,9 @@
     }
 
     li {
-        display: list-item;
+        display: inline-block;
         margin: 1rem;
+        cursor: pointer;
     }
 }
 
@@ -39,12 +40,23 @@
     text-align: -webkit-match-parent;
     width: 40px;
     height: auto;
+
 }
 
 .userActions {
+    text-align: center;
+
+
     ul {
         list-style-type: none;
     }
+
+    li {
+        display: inline-block;
+        margin: 1rem;
+        cursor: pointer;
+    }
+
 }
 
 .boldText {

@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "gatsby";
 import {
   TwitterIcon,
   LinkedinIcon,
@@ -36,13 +35,28 @@ const Contact = () => (
       </p>
       <ul>
         <li>
-          <Link>Submit a bug report</Link>
+          <a
+            href="https://github.com/misocho/morangcode/issues/new?template=bug_report.md"
+            target="_blank"
+          >
+            Submit a bug report
+          </a>
         </li>
         <li>
-          <Link>Request a new feature</Link>
+          <a
+            href="https://github.com/misocho/morangcode/issues/new?template=feature_request.md"
+            target="_blank"
+          >
+            Request a new feature
+          </a>
         </li>
         <li>
-          <Link>Suggest a topic</Link>
+          <a
+            href="https://github.com/misocho/morangcode/issues/new?template=content-suggestion.md"
+            target="_blank"
+          >
+            Suggest a topic
+          </a>
         </li>
       </ul>
     </div>
@@ -51,9 +65,9 @@ const Contact = () => (
       <p className={styles.boldText}>
         Please email me for business enquiries 🤝.
       </p>
-      <Link to="mailto:brian@morangcode.com" target="_blank">
+      <a href="mailto:brian@morangcode.com" target="_blank">
         brian@morangcode.com
-      </Link>
+      </a>
     </div>
     <hr />
   </div>
