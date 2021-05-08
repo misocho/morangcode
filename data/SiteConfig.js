@@ -7,18 +7,13 @@ const config = {
   pathPrefix: "", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
   siteDescription: "An algorithm blog.", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
-  siteFBAppID: "1825356251115265", // FB Application ID for using app insights
-  googleAnalyticsID: "UA-196355512-1", // GA tracking ID.
+  siteFBAppID: "", // FB Application ID for using app insights
+  googleAnalyticsID: process.env.GA_TRACKING_ID, // GA tracking ID.
   dateFromFormat: "YYYY-MM-DD", // Date format used in the frontmatter.
   dateFormat: "DD/MM/YYYY", // Date format for display.
-  userName: "Jone Due", // Username to display in the author segment.
-  userEmail: "youremail@gmail.com", // Email used for RSS feed's author segment // TODO: Change user email
-  userTwitter: "gatsbyjs", // Optionally renders "Follow Me" in the Bio segment.
-  userGitHub: "gatsbyjs", // Optionally renders "Follow Me" in the Bio segment.
+  userName: "Brian Morang'a", // Username to display in the author segment.
+  userEmail: "brian@morangcode.com", // Email used for RSS feed's author segment
   userLocation: "North Pole, Earth", // User location to display in the author segment.
-  userAvatar: "https://i.ibb.co/WPz9CNk/avatar.jpg", // User avatar to display in the author segment.
-  userDescription:
-    "Yeah, I like animals better than people sometimes... Especially dogs. Dogs are the best. Every time you come home, they act like they haven't seen you in a year. And the good thing about dogs... is they got different dogs for different people.", // User description to display in the author segment.
   copyright: "© 2021. Brian Morang'a.", // Copyright string for the footer of the website and RSS feed.
   themeColor: "#071E3D", // Used for setting manifest and progress theme colors.
   backgroundColor: "#071E3D", // Used for setting manifest background color.
