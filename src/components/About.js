@@ -25,20 +25,20 @@ const About = () => {
           <div className={styles.sectionContainer}>
             <h2>About me</h2>
             <p>
-              Here's a little about me. I love software engineering particularly
-              the backend. I got into this out of pure curiosity and ended up
+              Here's a little about me. I love software engineering with a focus
+              on the backend. I got into this out of pure curiosity and ended up
               being completely engrossed by it. I don't have much going on
-              outside of development. I love reading non-fiction books, just
-              recently started learning to draw. In my downtime, I play video
-              games or watch anime. My current favorite TV show is Attack On
-              Titan. I'm horrible at singing. I currently work as a contract
-              backend developer at{" "}
+              outside of development. I love reading non-fiction books, recently
+              started learning to draw. In my downtime, I play video games or
+              watch anime. My current favorite TV show is Attack On Titan. I'm
+              horrible at singing. I currently work as a contract backend
+              developer at{" "}
               <a href="https://crowdbotics.com" target="_blank">
                 Crowdbotics
               </a>{" "}
-              and finishing my degree in BSC. Mathematics with computing at
-              Kisii University, Kenya. You can follow me on Instagram. I'll be
-              posting weekly Gists on my{" "}
+              while taking my BSC. in Mathematics with computing at Kisii
+              University, Kenya. You can follow me on Instagram. I'll be posting
+              weekly Gists on my{" "}
               <a href="https://www.instagram.com/morangcode/" target="_blank">
                 Instagram
               </a>{" "}
@@ -55,9 +55,45 @@ const About = () => {
             to track and measure my progress as I learn and for you to learn
             various software engineering topics with real-world examples. We
             will discuss algorithms & data structures, system design &
-            architecture, databases, DevOps, and tackle emerging technologies.
-            Join me in this journey, and let us learn together 🙂.
+            architecture, databases, APIs & Microservices, DevOps, and tackle
+            emerging technologies. Join me in this journey, and let us learn
+            together 🙂.
           </p>
+        </div>
+        <div>
+          <h2>Resources</h2>
+          <p>Interested in the tools and resources I use to learn?</p>
+          <ul>
+            <li>
+              <a
+                href="https://www.youtube.com/channel/UC_ML5xP23TOWKUcc-oAE_Eg"
+                target="_blank"
+              >
+                Hussein Nasser's youtube channel
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ"
+                target="_blank"
+              >
+                FreeCodeCamp.org youtube channel
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/donnemartin/system-design-primer"
+                target="_blank"
+              >
+                The system design primer
+              </a>
+            </li>
+            <li>
+              <a href="https://leetcode.com/" target="_blank">
+                Leetcode
+              </a>
+            </li>
+          </ul>
         </div>
 
         <div className={styles.sectionContainer}>

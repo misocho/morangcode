@@ -27,6 +27,14 @@
         display: inline-block;
         margin: 1rem;
         cursor: pointer;
+
+        opacity: 1.0;
+        filter: alpha(opacity=100);
+
+        :hover {
+            opacity: 0.75;
+            filter: alpha(opacity=60);
+        }
     }
 }
 
