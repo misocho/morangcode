@@ -93,6 +93,14 @@ const About = () => {
                 Leetcode
               </a>
             </li>
+            <li>
+              <a
+                href="https://www.crackingthecodinginterview.com/"
+                target="_blank"
+              >
+                Cracking the coding interview
+              </a>
+            </li>
           </ul>
         </div>
 
