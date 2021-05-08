@@ -6,7 +6,7 @@ const config = {
   siteUrl: "https://morangcode.com", // Domain of your website without pathPrefix.
   pathPrefix: "", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
   siteDescription:
-    "Weekly blogs discussing algorithms, system design, data structures. A developer's journey to becoming a worldclass backend developer", // Website description used for RSS feeds/meta description tag.
+    "Weekly blogs on algorithms, system design, DevOps, data structures, and developer's journey to becoming a worldclass backend developer", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
   siteFBAppID: "", // FB Application ID for using app insights
   dateFromFormat: "YYYY-MM-DD", // Date format used in the frontmatter.
