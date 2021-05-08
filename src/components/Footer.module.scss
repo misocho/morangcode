@@ -6,7 +6,7 @@ footer {
   border-color: #eee;
   border-top-width: 1px;
   border-top-style: solid;
-  
+
   .container {
     padding-right: 1.05rem;
     padding-left: 1.05rem;
@@ -20,11 +20,18 @@ footer {
   }
 
   .iconsContainer {
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    margin: 1.05rem 0;
-    align-items: center;
-    justify-items: center;
+    display: block;
+    text-align: center;
+
+    ul {
+      list-style-type: none;
+    }
+
+    li {
+      display: inline-block;
+      margin: 1rem;
+      cursor: pointer;
+    }
   }
 
   .linksContainer {
@@ -33,18 +40,6 @@ footer {
 
   .separator {
     margin: 0 0.5rem;
-  }
-
-  ul {
-    display: block;
-    list-style: none;
-    padding: 0 0.5rem;
-    margin: 0;
-    text-align: center;
-  }
-
-  ul li {
-    display: inline-block;
   }
 
   .withBar::after {
@@ -57,6 +52,7 @@ footer {
     margin: 1.05rem 0;
     text-align: center;
   }
+
   .icons {
     fill: rgba(153, 153, 153, 1);
 

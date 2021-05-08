@@ -18,21 +18,13 @@ const About = () => {
   `);
   return (
     <>
-      <h1>Hi, I'm Brian, a backend developer based in Nairobi Kenya!</h1>
+      <h1>Hi, I'm Brian, a software developer from Nairobi, Kenya!</h1>
       <div className={styles.aboutMeContainer}>
         <div className={styles.aboutImage}>
           <Img fluid={data.file.childImageSharp.fluid} alt="brian" />
           <div className={styles.sectionContainer}>
             <h2>About me</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
+            <p></p>
           </div>
         </div>
         <div className={styles.sectionContainer}>

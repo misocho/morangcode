@@ -12,28 +12,38 @@ const Footer = () => (
   <footer>
     <div className={styles.container}>
       <div className={styles.iconsContainer}>
-        <GithubIcon className={styles.icons} />
-        <InstagramIcon className={styles.icons} />
-        <LinkedinIcon className={styles.icons} />
-        <TwitterIcon className={styles.icons} />
-      </div>
-      <div className={styles.linksContainer}>
         <ul>
-          <li className={styles.withBar}>
-            <Link>Home</Link>
-          </li>
-          <li className={styles.withBar}>
-            <Link>About</Link>
-          </li>
-          <li className={styles.withBar}>
-            <Link>Contact</Link>
-          </li>
-          <li className={styles.withBar}>
-            <Link>Mailing list</Link>
+          <li>
+            <GithubIcon className={styles.icons} />
           </li>
           <li>
-            <Link>RSS</Link>
+            <InstagramIcon className={styles.icons} />
           </li>
+          <li>
+            <LinkedinIcon className={styles.icons} />
+          </li>
+          <li>
+            <TwitterIcon className={styles.icons} />
+          </li>
+        </ul>
+      </div>
+      <div className={styles.iconsContainer}>
+        <ul>
+          <li className={styles.withBar}>
+            <Link to="/">Home</Link>
+          </li>
+          <li className={styles.withBar}>
+            <Link to="/about">About</Link>
+          </li>
+          <li>
+            <Link to="/contact">Contact</Link>
+          </li>
+          {/* <li className={styles.withBar}>
+            <Link to="/">Mailing list</Link>
+          </li>
+          <li>
+            <Link to="/">RSS</Link>
+          </li> */}
         </ul>
       </div>
       <div className={styles.copyright}>{config.copyright}</div>
