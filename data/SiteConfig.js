@@ -1,11 +1,12 @@
 const config = {
   siteTitle: "Morangcode", // Site title.
   siteTitleShort: "Morangcode", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
-  siteTitleAlt: "Morangcode", // Alternative site title for SEO.
+  siteTitleAlt: "Brian Morang'a", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
   siteUrl: "https://morangcode.com", // Domain of your website without pathPrefix.
   pathPrefix: "", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
-  siteDescription: "An algorithm blog.", // Website description used for RSS feeds/meta description tag.
+  siteDescription:
+    "Weekly blogs discussing algorithms, system design, data structures. A developer's journey to becoming a worldclass backend developer", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
   siteFBAppID: "", // FB Application ID for using app insights
   dateFromFormat: "YYYY-MM-DD", // Date format used in the frontmatter.
