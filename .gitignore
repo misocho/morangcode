@@ -59,3 +59,4 @@ bundle-stats.json
 
 #Environment variables
 .env
+.env.developent

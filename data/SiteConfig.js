@@ -8,7 +8,6 @@ const config = {
   siteDescription: "An algorithm blog.", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
   siteFBAppID: "", // FB Application ID for using app insights
-  googleAnalyticsID: process.env.GA_TRACKING_ID, // GA tracking ID.
   dateFromFormat: "YYYY-MM-DD", // Date format used in the frontmatter.
   dateFormat: "DD/MM/YYYY", // Date format for display.
   userName: "Brian Morang'a", // Username to display in the author segment.
