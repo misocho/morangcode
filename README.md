@@ -4,7 +4,7 @@
 </div>
 
 # Morangcode
-This is a blog site were I write about algorithms and data structures. Anything from grapth theory to dynamic programming. We will also tackle letcode challenges to test out our skills.
+This is a blog site where I write about algorithms and data structures. Anything from graph theory to dynamic programming. We will also tackle letcode challenges to test out our skills.
 
 # Technologies used
 - Gatsby (Blog starter code)
