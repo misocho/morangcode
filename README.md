@@ -7,6 +7,7 @@
 This is a blog site where I write about algorithms and data structures. Anything from graph theory to dynamic programming. We will also tackle letcode challenges to test out our skills.
 
 # Technologies used
+- PWA
 - Gatsby (Blog starter code)
 - Graphql
 - Markdown
